@@ -30,9 +30,6 @@
 可以从以下链接获取更多项目参考:
 
 - [gulp-changed](https://github.com/sindresorhus/gulp-changed) - only pass through changed files
-- [gulp-cached](https://github.com/contra/gulp-cached) - in-memory file cache, not for operation on sets of files
-- [gulp-remember](https://github.com/ahaurw01/gulp-remember) - pairs nicely with gulp-cached
-- [gulp-newer](https://github.com/tschaub/gulp-newer) - pass through newer source files only, supports many:1 source:dest
 
 ## 如何使用？
 
