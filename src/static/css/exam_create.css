@@ -1,0 +1,735 @@
+
+
+.box .title_tab {
+	border-bottom: 1px solid #e5e5e5;
+	padding: 0 30px;
+	margin-bottom: 10px;
+}
+.box .title_tab a {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 40px;
+	padding: 15px 5px;
+	color: #333;
+	font-weight: 600;
+	margin-bottom: -1px;
+}
+.box .title_tab a.current {
+	color: #019ce7;
+	padding-bottom: 11px;
+	border-bottom: 4px solid #019ce7;
+}
+.box .title_tab i._step {
+	display: inline-block;
+	color: #bebebe;
+	position: relative;
+	top: 2px;
+	left: -12px;
+}
+
+.box .title_steps {
+	margin: 15px 35px 15px;
+	padding: 15px 0 0;
+	color: #333;
+	font-weight: 600;
+}
+.box .title_steps span.info {
+	font-size: 12px;
+	color: #e95b5b;
+	font-weight: 100;
+	padding-left: 15px;
+}
+.box .title_steps_line {
+	border-top: 1px solid #e2e4e9;
+}
+
+.box .title_notice {
+	margin: 30px 30px 10px;
+	padding: 15px;
+	background: #fefdf7;
+	border: 1px solid #f6f4e9;
+	font-size: 12px;
+	color: #858585;
+}
+
+.box ._form {
+	padding: 15px 30px;
+}
+.box_min ._form .form_list {
+	min-height: 350px;
+}
+/*宽度小于1600时()*/
+@media screen and (max-width: 1600px) {
+	.box_min ._form .form_list {
+		min-height: 200px;
+	}
+}
+
+
+.form_chosescore {
+	background: #f1f1f1;
+	border: 1px solid #dfe1e5;
+	text-align: center;
+	font-size: 12px;
+	color: #a2a1a1;
+	padding: 6px 0;
+	margin: 0 0 10px;
+}
+.form_chosescore font {
+	font-size: 18px;
+}
+.form_chosescore i {
+	padding: 0 35px;
+	color: #484847;
+}
+
+
+.form_header {
+	padding: 0 0 20px;
+	position: relative;
+}
+.form_header .sx_tabs {
+	margin-left: 10px;
+}
+.form_header .goright {
+	top: 5px;
+	right: 0;
+}
+.form_header .goright a {
+	color: #333;
+	display: inline-block;
+	padding: 0 0 0 20px;
+}
+.form_header .goright a:hover {
+	color: #019ce7;
+}
+
+.exam_create_footer {
+	text-align: right;
+	padding: 30px 0 60px;
+}
+
+.form_list {
+}
+table.sx_table tr.tfoot td {
+	background: #e0e9f7;
+}
+table.sx_table tr.tfoot td a {
+	display: inline-block;
+	vertical-align: middle;
+	border: 1px solid #d4d7db;
+	padding: 0 12px;
+	line-height: 24px;
+	color: #333;
+	border-radius: 1px;
+	background: #fff;
+	margin-right: 5px;
+	font-size: 12px;
+}
+table.sx_table tr.tfoot td a i.iconfont {
+	font-size: 10px;
+	margin-right: 3px;
+}
+table.sx_table tr.tfoot td a.no_edit {
+	color: #c8c8c8;
+	cursor: not-allowed;
+}
+
+.scorepage_right {
+}
+.scorepage_right i.iconfont {
+	font-size: 14px;
+}
+
+.el-select-text {
+	width: 100%;
+}
+.el-select-text .el-select__tags {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	padding-left: 5px;
+}
+.el-select-text .el-select__tags span.el-tag {
+	display: inline;
+	padding: 0;
+	margin: 0;
+	color: #333;
+	border: 0;
+	background: none;
+	margin-left: 6px;
+	font-size: 14px;
+}
+.el-select-text .el-select__tags span.el-tag i {
+	display: none;
+}
+
+
+
+
+
+/*
+ * 弹出框
+ **/
+
+/*导入说明*/
+.explain_box {
+	padding: 0 10px;
+	min-height: 200px;
+}
+.explain_box p {
+	font-size: 15px;
+	color: #666;
+	line-height: 2em;
+	margin-bottom: 5px;
+}
+.explain_box .dialog-footer {
+	position: relative;
+	padding: 40px 0 30px;
+}
+.explain_box .dialog-footer .goright {
+	top: 40px;
+}
+
+/*新增题目*/
+.addnew_box {
+	padding: 0 60px 0 0;
+	min-height: 120px;
+}
+.addnew_box .dialog-footer {
+	text-align: center;
+	padding: 20px 0 20px 62px;
+}
+.addnew_box .dialog-footer {
+	padding-left: 140px;
+}
+
+
+
+/*知识点*/
+
+table.sx_table tr td.line_1 {
+	background: #fff url("/img/tab_line1.png") no-repeat 18px center;
+}
+table.sx_table tr:hover td.line_1 {
+	background: #e5f3ff url("/img/tab_line1.png") no-repeat 18px center;
+}
+table.sx_table tr td.line_2 {
+	background: #fff url("/img/tab_line2.png") no-repeat 18px center;
+}
+table.sx_table tr:hover td.line_2 {
+	background: #e5f3ff url("/img/tab_line2.png") no-repeat 18px center;
+}
+
+table.sx_table tr td.td_tihao {
+	text-align: right;
+}
+table.sx_table tr td.td_tihao .edit_input {
+	text-align: left;
+	text-indent: 50px;
+}
+
+.know_search {
+	height: 40px;
+	margin-bottom: 10px;
+}
+.know_search .el-input-group__append {
+	background: #019ce7;
+}
+.know_search .el-input-group__append .el-icon-search {
+	color: #fff;
+}
+.know_box {
+	height: 400px;
+	overflow: hidden;
+	overflow-y: scroll;
+	background: #fbfcfd;
+	border: 1px solid #dfe1e5;
+	border-radius: 2px;
+	padding: 10px 15px;
+}
+.know_box ._group {
+}
+.know_box .el-tree {
+	background: none;
+	border: 0;
+}
+.know_box ._group p {
+	line-height: 32px;
+	color: #333;
+}
+.know_box ._group p i {
+	display: inline-block;
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 600;
+	background: #fff;
+	border: 1px solid #b7b7b7;
+	border-radius: 2px;
+	text-align: center;
+	color: #666;
+	margin-right: 5px;
+	cursor: pointer;
+	position: relative;
+	top: -1px;
+}
+.know_box ._group p.level_1 {
+	color: #00a2e3;
+}
+.know_box ._group p.level_2 {
+}
+.know_box ._group p.level_3 {
+	padding-left: 30px;
+}
+.know_box ._group ul {
+	padding: 5px 40px;
+}
+.know_box ._group ul li {
+	line-height: 32px;
+	color: #555;
+}
+.know_box ._group ul li.current .el-checkbox {
+	color: #20a0ff;
+}
+
+.knowchose_box {
+	height: 450px;
+	padding: 10px 20px;
+	margin-left: 20px;
+	background: #fbfcfd;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+.knowchose_box h5 {
+	font-size: 14px;
+	color: #c5cace;
+	line-height: 30px;
+	margin-bottom: 15px;
+}
+.knowchose_box dl {
+	border: 1px solid #e2e4e7;
+	border-top: 0;
+	border-radius: 3px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+.knowchose_box dl dt {
+	position: relative;
+	border-top: 1px solid #e2e4e7;
+	border-bottom: 1px solid #e2e4e7;
+	background: #fdfef6;
+	padding: 8px 35px 8px 15px;
+	line-height: 28px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.knowchose_box dl dd {
+	position: relative;
+	padding: 5px 35px 0 10px;
+	line-height: 24px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.knowchose_box dl dt i,
+.knowchose_box dl dd i {
+	position: absolute;
+	top: 5px;
+	right: 8px;
+	font-size: 20px;
+	color: #a3a5aa;
+	cursor: pointer;
+}
+.knowchose_box dl dt i {
+	top: 8px;
+}
+.knowchose_box dl dt:hover i,
+.knowchose_box dl dd:hover i {
+	color: #ea5e5e;
+}
+/*.knowchose_box dl dt:before,
+.knowchose_box dl dd:before {
+	content: "×";
+	position: absolute;
+	top: 5px;
+	right: 8px;
+	font-size: 18px;
+	color: #a3a5aa;
+	cursor: pointer;
+}
+.knowchose_box dl dt:before {
+	top: 8px;
+}
+.knowchose_box dl dt:hover:before,
+.knowchose_box dl dd:hover:before {
+	color: #ea5e5e;
+}*/
+
+.knowchose_no_data {
+	text-align: center;
+	padding: 50px 0;
+	font-size: 12px;
+	color: #b7b7b7;
+}
+
+.know_footer {
+	padding: 30px 0 0;
+	text-align: right;
+}
+
+/*设置分卷题号弹出层*/
+.el-dialog-split .el-dialog__body {
+	padding: 0 0 30px;
+}
+.el-dialog-split .know_footer {
+	padding-right: 30px;
+}
+
+.dialogbox_split {
+	height: 400px;
+	overflow: hidden;
+	border-bottom: 1px solid #dfe1e5;
+}
+.dialogbox_split ul.col_a {
+	background: #f9fafc;
+	height: 400px;
+	border-right: 1px solid #dfe1e5;
+}
+.dialogbox_split ul.col_a li {
+	color: #333;
+	line-height: 46px;
+	padding: 0 20px;
+}
+.dialogbox_split ul.col_a li.current {
+	background: #edf1f9;
+	color: #019ce7;
+}
+.dialogbox_split .clo_d {
+	text-align: center;
+	padding-top: 180px;
+}
+.dialogbox_split ul.col_b,
+.dialogbox_split ul.col_c {
+	overflow: hidden;
+	overflow-y: auto;
+	margin: 25px;
+	padding: 5px 0;
+	height: 338px;
+	border: 1px solid #dfe1e5;
+}
+.dialogbox_split ul.col_b li,
+.dialogbox_split ul.col_c li {
+	line-height: 32px;
+	padding: 0 20px;
+	position: relative;
+}
+.dialogbox_split ul.col_c li i.iconfont {
+	font-size: 10px !important;
+	display: none;
+	cursor: pointer;
+}
+.dialogbox_split ul.col_c li:hover {
+	background: #eaf3ff;
+}
+.dialogbox_split ul.col_c li:hover i.iconfont {
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	color: #999;
+}
+.dialogbox_split ul.col_c li:hover i.iconfont:hover {
+	color: red;
+}
+
+/*tips*/
+.b-tip{
+  line-height:96px;
+	min-height:30px;
+}
+.b-tip,.b-tabs{
+	padding:0 30px;
+}
+.b-tip span{
+	margin:0 10px;
+}
+.b-tip i{
+	margin-left:10px;
+}
+.b-tabs li {
+	line-height: 38px;
+	float: left;
+	cursor: pointer;
+}
+.b-tabs a {
+	line-height: 38px;
+	margin-left:20px;
+	color:#666;
+}
+.b-tabs-btn  li{
+	width:170px;
+	text-align:center;
+	border:1px solid #e5e5e5;
+	margin-left:-1px;
+}
+.b-tabs-down li:nth-child(n+2){
+	margin-left:40px;
+}
+.b-tabs li.activeTab{
+	background:#5a668a;
+	color:#fff;
+}
+.b-tabs li.activeTab{
+	background:#5a668a;
+	color:#fff;
+}
+.tableData{
+	min-height:500px;
+	margin: 20px 30px 30px;
+	padding-bottom: 30px;
+}
+.tableData table{
+	text-align:center;
+}
+.t-infoBox{
+	width:360px;
+	margin:0 auto 20px;
+}
+.t-infoBox .el-upload__inner{
+	display:block;
+	width:200px;
+	margin: 0 auto;
+}
+.t-infoBox p i.importIcon{
+	font-size:100px;
+    text-align: center;
+}
+.t-infoBox p{
+	text-align:center;
+}
+
+/*create exam*/
+.examInfo h6{
+	border-bottom:1px solid #e5e5e5;
+	padding:12px 20px;
+	font-weight:600;
+}
+.examInfo .demo-ruleForm{
+	padding:40px;
+	width:820px;
+	margin:0 auto;
+}
+.examInfo .demo-ruleForm .el-input__inner{
+	height:40px;
+	border-radius:2px;
+}
+.examInfo .demo-ruleForm .el-date-editor.el-input,.demo-ruleForm .el-select{
+	width:100%;
+}
+.examInfo .el-form-item>label{
+	width:120px!important;
+}
+.examInfo .el-form-item__content{
+	margin-left:120px!important;
+}
+.examInfo button{
+	text-align: center;
+}
+
+.examInfo .el-form-item__content button{
+	padding:16px 0;
+	width:170px;
+}
+.examInfo .el-form-item__content .el-button--default{
+	margin-left:49%;
+}
+.examInfo .el-form .el-form-item:last-child button{
+	margin-top:20px;
+}
+.examInfo .mytable{
+	width:100%;
+	text-align:left;
+}
+.examInfo .mytable th{
+	white-space: nowrap;
+	overflow: hidden;
+	background-color: #eef1f6;
+
+}
+.examInfo .mytable th,.mytable td{
+	height: 40px;
+	text-overflow: ellipsis;
+	border: 1px solid #dfe6ec;
+	text-align:center;
+}
+.examInfo .mytable td input{
+	border:none;
+}
+.examInfo .mytable .el-input__inner{
+	text-align:center;
+}
+
+.examInfo .comprehensive li{
+	border:1px solid #e5e5e5;
+	line-height:40px;
+	margin-top:20px;
+	overflow:hidden;
+}
+.examInfo .comprehensive .el-checkbox{
+	width:auto;
+}
+.examInfo .comprehensive li .subjectTag{
+	width:18%;
+	float:left;
+	text-align: center;
+	background:#EEF1F6;
+}
+.examInfo .comprehensive li .subjectCombo{
+	width: 73%;
+	float:left;
+	border-left:1px solid #e5e5e5;
+}
+.examInfo .comprehensive li .modifiBtn{
+	display:inline-block;
+	vertical-align: top;
+}
+.examInfo .comprehensive li .subjectCombo span{
+	margin-left:10px;
+	display: inline-block;
+}
+.examInfo .comprehensive li .subjectBox{
+	border-top:1px solid #e5e5e5;
+	padding-left:10px;
+}
+.examInfo .courseChange i{
+	display:inline-block;
+}
+.examInfo .courseChange i{
+	transform:rotate(180deg);
+	transition:1s;
+}
+
+.examInfo .d-main{
+	height:460px;
+	border-top:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+}
+.examInfo .el-dialog__body{
+	padding:0;
+	overflow:hidden;
+	height:460px;
+	border-bottom:1px solid #e5e5e5;
+}
+.examInfo  .el-dialog{
+	width:1000px;
+}
+.examInfo .el-dialog__footer{
+	padding: 30px;
+}
+.examInfo .el-dialog__body .areaList{
+	border-right:1px solid #e5e5e5;
+	width:19%;
+	height:100%;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+.examInfo .el-dialog__body .areaList li{
+	text-indent:20px;
+	line-height:50px;
+	height:50px;
+	cursor:pointer;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+}
+.examInfo .areaList li.areaActive{
+	background:#edf1f9;
+	color:#019ce7;
+	border-bottom:1px solid #e5e5e5;
+}
+.examInfo .areaList li.areaActive:nth-child(n+2){
+	border-top:1px solid #e5e5e5;
+}
+.examInfo .el-dialog__body .shoolList{
+    padding:10px 0;
+    overflow-y:auto;
+    height:400px;
+}
+.examInfo .el-dialog__body .schoolsBox{
+	width:80%;
+}
+.examInfo .el-dialog__body .schoolsBox.classBox{
+	width:100%;
+}
+.examInfo .el-dialog__body .s-top,.el-dialog__body .shoolList{
+	line-height:50px;
+	margin:0 30px;
+}
+.examInfo .el-dialog__body .s-top{
+	border-bottom:1px solid #e5e5e5;
+}
+.examInfo .el-dialog__body .s-top .cgray{
+	margin-left:65%;
+}
+.examInfo .el-dialog__body .shoolList .el-checkbox{
+	margin:0;
+}
+.examInfo .el-form-item__error{
+	top:10px;
+	left:102%;
+	width:120px;
+}
+.examInfo .el-form-item__content i{
+	color:#20a0ff;
+	font-size:15px;
+	margin-left:4px;
+}
+.examInfo .el-dialog__body .shoolList .el-checkbox{
+	width:25%;
+	float:left;
+}
+.examInfo .el-dialog__body .classBox .shoolList .el-checkbox{
+	width:20%;
+}
+.examInfo .mytable td:last-child .splits .el-select{
+    display: inline-block;
+    width: 35%;
+}
+.examInfo .mytable th:nth-child(1){
+	width:10%;
+}
+.examInfo .mytable .el-checkbox{
+	margin-right:0;
+	width:auto;
+}
+.examInfo .mytable th:nth-child(2),.mytable th:nth-child(3){
+    width:20%;
+}
+.examInfo .mytable th:nth-child(2),.mytable th:nth-child(3){
+	width:20%;
+}
+.examInfo .demo-ruleForm .releaseTime .el-date-editor{
+	width:67%;
+	display:inline-block;
+	margin-right:10px;
+}
+.examInfo .releaseTime .el-select{
+	width:100px;
+}
+.examInfo .releaseTime .el-select:nth-child(2){
+	margin-right:10px;
+}
+
+
+
+
+
+
+
+
+

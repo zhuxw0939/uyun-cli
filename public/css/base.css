@@ -1,0 +1,205 @@
+/**
+ * SXUI MODULES
+ *
+ * base.css | 全局样式
+ *
+ * Copyright (c) 2015-2016 生学教育 (http://www.sxw.cn)
+ *
+ */
+html {
+	background:#eaedf1;
+}
+body {
+	color: #333;
+	font: 14px/1.7em "Microsoft YaHei","\5fae\8f6f\96c5\9ed1","\5b8b\4f53","sans-serif";
+	*font: 14px/1.7em "微软雅黑","宋体","Arial";
+	*position: relative;
+}
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr {
+	margin: 0;
+	padding: 0;
+}
+fieldset, img {
+	border: 0 none;
+}
+li {
+	list-style: none outside none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+address, caption, cite, code, dfn, em, th, var,b {
+	font-style: normal;
+	font-weight: normal;
+}
+/* special */
+a {
+	color:#05bffc;
+	text-decoration: none;
+	outline:none;
+}
+a:hover {
+	color:#0096d5;
+	text-decoration: none;
+}
+strong {
+	font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	line-height: 1.8em;
+}
+h1 {
+	font-size: 38px;
+}
+h2 {
+	font-size: 32px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 24px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 14px;
+}
+/* class */
+.yellow {
+	color: #CDB37C;
+}
+.yellow2 {
+	color: #c60;
+}
+.red {
+	color: #f00;
+}
+.error{
+}
+.yahei {
+	font-family:"微软雅黑","黑体",Arial,Helvetica,sans-serif;
+}
+input {
+	font-family: "Helvetica Neue","HelveticaNeue","Arial","Helvetica","微软雅黑","宋体";
+}
+.bold {
+	font-weight:bold;
+	color:#111;
+}
+.hidden {
+	display:none;
+}
+.visible {
+	visibility:hidden
+}
+.goout {
+	position:absolute;
+	top:-9999px;
+	left:-9999px;
+}
+.overflow {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.relative {
+	position: relative;
+}
+.goleft,
+.goright {
+	position: absolute;
+	top: 0;
+}
+.goleft {
+	left: 0;
+}
+.goright {
+	right: 0;
+}
+.center,
+table.center tr td {
+	text-align: center;
+}
+/* float */
+.cf:after {
+	content:".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+	height:0px;
+}
+.cf {
+	zoom:1;
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
+
+.cursor_pointer {
+	cursor: pointer;
+}
+.cursor_default {
+	cursor: default;
+}
+
+
+
+/* sprite icon */
+.icon {
+	display: inline-block;
+}
+
+
+
+
+
+.wrapper {
+	padding-left: 250px;
+	position: relative;
+}
+.wrapper_left {
+	width: 250px;
+	background: #323a55;
+	height: 1000px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	color: #fff;
+}
+.wrapper_right ._top{
+	padding: 12px 26px;
+ }
+.examInfo,.examTab,.wrapper_right ._top{
+	background: #f9fafc;
+}
+.examTab,.wrapper_right ._top{
+	line-height:36px;
+}
+.wrapper_right ._top img,.wrapper_right ._center img{
+	vertical-align: middle;
+}
+
+._center {
+	padding: 20px;
+}
+.box {
+	background: #fff;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	min-height: 320px;
+}
+
+
+
+
+
+
+
+
