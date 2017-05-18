@@ -5,7 +5,7 @@
 			<div class="title_tab">
 				<router-link to="settingAnalysis">分数线设置</router-link><i class="_step">></i>
 				<router-link to="settingRule">计算规则设置</router-link><i class="_step">></i>
-				<a href="#" class="current cursor_default">分卷设置</a>
+				<a href="#" class="current cursor_default">试卷分卷设置</a>
 			</div>
 			<!--<div class="title_steps title_steps_line">三、试卷分卷设置<span class="info">（试卷分卷设置可根据用户要求按题号自定义分卷，分卷设置后在成绩分析即可查看分卷成绩分析。）</span></div>-->
 			<div class="title_notice">温馨提示：试卷分卷设置可根据用户要求按题号自定义分卷，分卷设置后在成绩分析即可查看分卷成绩分析。</div>

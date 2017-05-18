@@ -74,7 +74,7 @@ module.exports = {
 
 	devServer: {
 		host: "127.0.0.1",
-		port: 8282,
+		port: 8989,
 		historyApiFallback: true,
 		noInfo: true,
 		inline: true //实时刷新

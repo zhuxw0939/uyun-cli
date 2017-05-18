@@ -1,5 +1,5 @@
 /**
- * @192.168.2.84xxx环境
+ * @默认配置
  *
  *
  ***/
@@ -8,22 +8,19 @@ var path = require('path');
 module.exports = {
 
 	// 项目名称
-	name: "school.app.score",
+	name: "sxweb.app.score",
 	// 描述
-	description: "教学质量监控平台-生学教育",
+	description: "xxx监控平台",
 	// 版本号
 	v: "0.1.0",
 
 	// 域名
-	host: 'http://192.168.2.84',
+	host: 'http://127.0.0.1',
 	// 端口号，必须配置
-	port: 3004,
+	port: 6060,
 
 	// 平台登录地址，一般登录失效后会跳到这个地址
-	loginAuthUrl: "http://192.168.2.84:3100/",
-
-	// appId，当前平台的id，正式环境可以不用修改
-	appId: "3",
+	loginAuthUrl: "http://127.0.0.1:3100/",
 
 	// 是否开启debug模式，正式环境可以关闭
 	// 日志级别logger.debug()、logger.warn()、logger.error()、logger.fatal()任何时候会打印出来。
@@ -46,17 +43,9 @@ module.exports = {
 		host: '192.168.2.56',
 		port: '6379',
 		pass: 'Sxw@123456',
-		db: 7,
+		db: 6,
 		prefix: 'sess:', // redis数据表前辍
 		ttl: 60*60*24
-	},
-
-	// oss配置
-	oss: {
-		OSSAccessKeyId: 'hh8VeIaK3yI5xHfA',
-		secret: 'VM9l16oZ8eiURXc1GPBXBnmRH6jlTC',
-		host: 'http://jiuhu-sxjy-firstbucket.oss-cn-hangzhou.aliyuncs.com',
-		path: "xwcz-web/uploads/"
 	},
 
 	// session失效时间
@@ -64,22 +53,23 @@ module.exports = {
 	// cookie有效期
 	cookieMaxAge: 1000*60*60*24,
 	// cookie存储的key
-	cookieAuthName: "sxw_token",
+	cookieAuthName: "sxweb_token",
 	// cookie保存的域名，在测试ip环境下一般留空，正式环境一般为主域名如".sxw.com"
 	cookieDomain: "",
 
 	// 正式环境只需要配置host，默认"/dist"
 	webpackServer: {
 		open: true,
-		host: '/dist'
+		// host: '/dist'
+		host: 'http://127.0.0.1:8989/dist'
 	},
 
 	// 正式环境前三个参数都必须关闭，其它参数无所谓
 	mock: {
-		open: false,
+		open: true,
 		user: false, // 0-市级 1-区县级 2-校级，不想mock用户时请务必设为空或false
 		apiSave: true,
-		host: "http://192.168.2.56:3300",
+		host: "http://www.uyun.net:3300",
 		p_id: "SklRa0r$qg",
 		v_id: "SJxRNEcHqx"
 	}

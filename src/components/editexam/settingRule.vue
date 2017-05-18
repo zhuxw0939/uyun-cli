@@ -5,7 +5,7 @@
 			<div class="title_tab">
 				<router-link to="settingAnalysis">分数线设置</router-link><i class="_step">></i>
 				<a href="#" class="current cursor_default">计算规则设置</a><i class="_step" v-if="examType!=0">></i>
-				<a href="#" class="gray_only cursor_default" v-if="examType!=0">分卷设置</a>
+				<a href="#" class="gray_only cursor_default" v-if="examType!=0">试卷分卷设置</a>
 			</div>
 			<!--<div class="title_steps">二、计算规则设置<span class="info">（请根据区域分析规则设置，设置后成绩将重新计算，请谨慎设置！）</span></div>-->
 			<div class="title_notice">温馨提示：1、综合学科是指文综、理综学科，分支学科是指综合学科下的政、史、地、物、化、生。&nbsp;&nbsp;&nbsp;&nbsp;2、综合学科属于单科，适用于单科0分的计算规则。&nbsp;&nbsp;&nbsp;&nbsp;<font color="#e95b5b">（请根据区域分析规则设置，设置后成绩将重新计算，请谨慎设置！）</font></div>

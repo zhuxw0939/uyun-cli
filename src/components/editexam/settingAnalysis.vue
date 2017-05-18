@@ -5,7 +5,7 @@
 			<div class="title_tab">
 				<a href="#" class="current cursor_default">分数线设置</a><i class="_step">></i>
 				<a href="#" class="gray_only cursor_default">计算规则设置</a><i class="_step" v-if="examType!=0">></i>
-				<a href="#" class="gray_only cursor_default" v-if="examType!=0">分卷设置</a>
+				<a href="#" class="gray_only cursor_default" v-if="examType!=0">试卷分卷设置</a>
 			</div>
 			<!--<div class="title_steps">一、分数线设置</div>-->
 			<div class="_form">
