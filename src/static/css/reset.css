@@ -1,0 +1,80 @@
+/*
+*reset CSS
+*/
+*{
+  margin:0;
+  padding:0;
+}
+[v-cloak] {
+  display: none;
+}
+html{
+  font-size: 125%;
+}
+body{
+  font: 0.7rem/1.4 "Microsoft YaHei",Arial, Helvetica, sans-serif;
+  background:#f2f2f2;
+  -webkit-tap-highlight-color:rgba(255,255,255,0);
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style:none;
+}
+.textc{
+  text-align:center;
+}
+.textl{
+  text-align: left;
+}
+.textr{
+  text-align: right;
+}
+/*color*/
+.white{
+  color: #fff;
+}
+
+.gray{
+  color:#ccc;
+}
+.mainc{
+  color: #1e95e4;
+}
+.bcmain{
+  background:#1e95e4;
+}
+.bcfff{
+  background: #fff;
+}
+.border{
+  border: 0.01rem solid #f00;
+}
+.hiddens{
+  overflow:hidden;
+}
+.fl{
+  float:left;
+}
+.fr{
+  float:right;
+}
+.inblock{
+  display:inline-block;
+}
+.fixed{
+  position: fixed;
+}
+.underline{
+  text-decoration: underline;
+}
+#app .redius50{
+  border-radius:1rem;
+}
+#app .button-long{
+  padding: 0.55rem 2.3rem;
+  font-size: 0.8rem;
+}

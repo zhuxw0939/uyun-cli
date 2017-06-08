@@ -1,0 +1,54 @@
+
+.index_right_box {
+	padding-left: 20px;
+}
+.index_right_box .box {
+	min-height: 160px;
+}
+
+
+
+.box ._title {
+	padding: 15px;
+	border-bottom: 1px solid #e5e5e5;
+	line-height: 20px;
+	color: #333;
+	font-size: 14px;
+	position: relative;
+}
+.box ._title_toediter {
+	background: #fffbe3;
+	border-radius: 4px 4px 0 0;
+}
+.box ._title .goright {
+	top: 15px;
+	right: 15px;
+}
+.box ._examtab {
+	padding: 30px 60px 10px;
+	position: relative;
+}
+.box ._examtab .goright {
+	top: 30px;
+	right: 60px;
+}
+
+.box .echarts_box {
+	padding: 0 20px 20px;
+}
+
+.box ._chart {
+	padding-top: 30px;
+}
+
+
+.box .myprogress {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
