@@ -2,7 +2,7 @@
     <a href="#">
         <img width="186" height="38" src="http://frame.sxjyonline.cn/SXWFrame/resources/images/logod.png">
     </a>
-    <p align="center">生学教育-前端公共架构</p>
+    <p align="center">前端公共架构</p>
 </p>
 
 ## 适用版本
