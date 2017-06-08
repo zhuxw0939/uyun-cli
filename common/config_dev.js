@@ -17,13 +17,13 @@ module.exports = {
 	// 域名
 	host: 'http://127.0.0.1',
 	// 端口号，必须配置
-	port: 3004,
+	port: 3005,
 
 	// 平台登录地址，一般登录失效后会跳到这个地址
 	loginAuthUrl: "http://www.sxw.com:3100/",
 
 	// appId，当前平台的id，正式环境可以不用修改
-	appId: "3",
+	appId: "5",
 
 	// 是否开启debug模式，正式环境可以关闭
 	debug: true,
@@ -66,17 +66,17 @@ module.exports = {
 	// cookie保存的域名，在测试ip环境下一般留空，正式环境一般为主域名如".sxw.com"
     cookieDomain: "",
 
-	// 正式环境只需要配置host，默认"/dist"
+	// webpackServer配置
 	webpackServer: {
+		// 是否启用开发者模式，true 时为dev模式，false 时为build模式
 		open: true,
-		// host: '/dist'
-		host: 'http://127.0.0.1:8282/dist',
+		host: 'http://127.0.0.1:8586/dist'
 	},
 
 	// 正式环境前三个参数都必须关闭，其它参数无所谓
 	mock: {
 		open: false,
-		user: false, // 0-市级 1-区县级 2-校级，不想mock用户时请务必设为空或false
+		user: false, // 1-公司管理员 2-终端管理员
 		apiSave: true,
 		host: "http://192.168.2.56:3300",
 		p_id: "SklRa0r$qg",

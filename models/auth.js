@@ -15,6 +15,8 @@ exports.authUser = function (req, res, next) {
 	res.locals.static_host = config.static_host;
 	// 前端vue打包资源路径
 	res.locals.build_host = config.webpackServer.host;
+	// webpackServer
+	res.locals.webpackServer = config.webpackServer.open;
 	// 传入query
 	res.locals.query = req.query;
 	// 传入user

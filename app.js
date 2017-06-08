@@ -33,8 +33,26 @@ var app = express();
 app.use(history({
 	rewrites: [
 		{
+			from: /^\/$/,
+			to: '/app'
+		}, {
+			from: /^\/app\/.*$/,
+			to: '/app'
+		}, {
+			from: /^\/app.*$/,
+			to: '/app'
+		}, {
+			from: /^\/*hot-update.json$/,
+			to: function(context) {
+				console.warn("to context");
+				console.info(context);
+				return '/dist/'+context.parsedUrl.pathname;
+			}
+		}, {
 			from: /^.*$/,
-			to: '/'
+			to: function(context) {
+				return context.parsedUrl.pathname;
+			}
 		}
 	]
 }));

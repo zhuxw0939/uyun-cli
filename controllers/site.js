@@ -1,17 +1,31 @@
 "use strict";
 
 var config = require('../common/config');
-
 var logger = require('../common/logger');
+
+var request = require('request');
 
 
 // 首页
+exports.index = function (req, res, next) {
+	res.redirect("/app");
+};
+
+// 首页
 exports.home = function (req, res, next) {
-	res.render('home', {
-		title: "教学质量监控平台-生学教育",
+
+	let renderName = "home";
+	if(config.webpackServer.open){
+		renderName = "home_dev";
+	}
+
+	res.render(renderName, {
+		title: "晓我课堂学生终端控制中心-生学教育",
 		currentPage : 'home'
 	});
+
 };
+
 
 
 // 成绩分析
@@ -32,7 +46,21 @@ exports.editexam = function (req, res, next) {
 };
 
 
-
+// webpack热更新代理，用于端口跨域
+exports.webpackHotReload = function(req,res){
+	request.get({
+		url: "http://127.0.0.1:8586/dist/"+req.params.id,
+		json: true
+	}, function (error, response, body) {
+		if(!error){
+			res.send(body);
+		} else {
+			res.send({
+				"message": "刷新失败"
+			});
+		}
+	});
+};
 
 
 // 浏览器升级提示
