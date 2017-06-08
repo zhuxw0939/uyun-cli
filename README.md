@@ -15,7 +15,7 @@ pc版，成绩分析、云平台、课堂管控等
 - **基于vue+webpack** - 整个项目引用了vue全家桶，包括vue-resource、vue-router、vuex、vue-loader等相关生态。
 - **基于element-ui** - element-ui是目前pc端vue比较成熟的一套ui组件，在此基础上我们可以很方便的将自己的项目采用组件化管理。
 - **使用yarn** - 采用yarn可以获得更稳定的项目版本控制和较快的速度。
-- **使用gulp** - 引用gulp构建一些功能，如版本发布，打包等。
+- **使用gulp** - 采用gulp构建一些功能，如版本发布，打包等。
 
 ## vue-router-history
 
